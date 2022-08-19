@@ -1,15 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Calculater from "./Calculater"
+import GameMatch from "./GameMatch"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Calculater
-        </p>
-        <Calculater />
+        <GameMatch />
       </header>
     </div>
   );

@@ -1,25 +1,40 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(4, 100px);
-    grid-auto-rows: max-content;
-    gap: 5px;
-    justify-content: center;
-    margin: auto;
-    padding: 10px;
-    background-color: rgba(203, 217, 5, 0.5);
-  }
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  grid-auto-rows: max-content;
+  gap: 5px;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(25, 155, 54, 0.3);
+  height: 180px;
+}
 
-  .matchBtn {
-    background-color: none;
-    border-color: rgba(255, 255, 255, 0);
-    border-radius: 5px;
-  }
+.matchBtn {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-color: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  height: 50px;
+  width: 120px;
+}
 
-  .startBtn {
-    margin: 10px auto;
-    background-color: rgb(68, 174, 68);
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 5px;
-    font-weight: bold;
-  }
+.startBtn {
+  margin: 10px auto;
+  background-color: rgb(68, 174, 68);
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+h1 {
+  margin: 10px auto;
+  text-align: center;
+}
+.Ending {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
